@@ -2,27 +2,21 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Nagykede",
-  description: "Nagykede weblapja",
+  title: "NAGYKEDE",
+  description: "Nagykede weblapja'",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Főoldal', link: '/' },
+      { text: 'Nagykede Története', link: '/history' },
+      { text: 'Médiatár', link: '/gallery' },
+      { text: 'Események', link: '/events' },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'facebook', link: 'https://facebook.com/nagykede' },
+      { icon: 'instagram', link: 'https://instagram.com/nagykede' }
     ]
   }
 })
