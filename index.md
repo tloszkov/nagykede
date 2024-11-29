@@ -8,7 +8,7 @@ hero:
   
 ---
 
-#  Bevezető a faluról
+#  Bevezető
 Rugonfalvától északra a Kedei –patak suvadásos völgyfőjében, szélvédett területen fekszik Kiskede 
 ikerfalvaként. Rugonfalva felszegi része felől, a kedei patak völgyébe vezető 38-as községi úton 
 közelíthető meg. Szomszédai: keleten Kiskede, északon Gagy, nyugaton Csekefalva, délen Rugonfalva. 
