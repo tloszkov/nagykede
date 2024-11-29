@@ -13,7 +13,7 @@
    To start the development server, run the following command:
    npm run docs:dev
 
-   This will launch the VitePress development server at `http://localhost:3000`.
+   This will launch the VitePress development server at `http://localhost:5173`.
      
       
   vitepress v1.5.0
