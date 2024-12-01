@@ -49,8 +49,12 @@ Forrás: https://hu.wikipedia.org/wiki/Nagykede
 - Benedekffy Sámuel (1915-?) lelkész, költő, újságíró.
 
 ---
-<a href="./img/kedeterkep.png" target="_blank">
-<img src="./img/kedeterkep.png" alt="Kép 2">
-</a>
+![kedeterkep.png](assets/kedeterkep.png)
+
+[//]: # (<a href="assets/kedeterkep.png" target="_blank">)
+
+[//]: # (<img src="assets/kedeterkep.png" alt="Kép 2">)
+
+[//]: # (</a>)
 
 
