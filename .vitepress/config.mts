@@ -13,6 +13,10 @@ export default defineConfig({
       { text: 'Események', link: '/events' },
     ],
 
+    search: {
+      provider: 'local'
+    },
+
 
     socialLinks: [
       { icon: 'facebook', link: 'https://facebook.com/nagykede' },
