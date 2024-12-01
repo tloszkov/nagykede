@@ -31,9 +31,8 @@ E példabeszédet pedig ekként hallottam értelmezni, hogy egykor egy kifárado
 szorongatott nyul éppen az isteni tisztelet folyama alatt bemenekült e templomba, de itt sem talált 
 biztonságot, mert a hivek ajtót zártak, s az áhitatosságukat zavarót elcsipték. ..."_
 
-#  Turisztikai látványosságok
 
-## Egyháztörténet: 
+# Egyháztörténet 
 A középkorban tiszta katolikus falu a reformáció korában válik unitáriussá. A szintén
 többségébe unitáriussá lett Kiskedével együtt építettek a két falu közötti Templomdombra templomot. 
 Így a két település egy egyházközséget alkot, amely 1816-ban nyerte el önállóságát Székelyszentmiklóssal 
