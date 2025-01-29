@@ -1,21 +1,31 @@
 <script setup lang="ts">
+import { ref } from 'vue';
+
 const items = [
-  { title: 'Home'},
-  { title: 'About'},
-  { title: 'Contact'},
-  { title: 'Settings'},
+  { title: 'Home', link: '' },
+  { title: 'About', link: 'about' },
+  { title: 'Contact', link: 'contact' },
+  { title: 'Settings', link: 'settings' },
 ];
+
+const theme = ref('light');
+
+function onClick () {
+  theme.value = theme.value === 'light' ? 'dark' : 'light'
+}
 </script>
 
 <template>
-
-  <v-for>
-    <v-btn v-for="item in items" :key="item.title" :value="item.title" :to="`/${item.title.toLowerCase()}`"> {{ item.title }}
+  <div>
+    <v-btn v-for="item in items" :key="item.title" :value="item.title" :to="`/${item.link}`"> {{ item.title }}
     </v-btn>
-  </v-for>
-
+    <v-btn
+      :prepend-icon="theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"
+      slim
+      @click="onClick"
+    ></v-btn>
+  </div>
 </template>
 
 <style scoped>
-
 </style>
