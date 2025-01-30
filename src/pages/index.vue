@@ -1,5 +1,7 @@
 <template>
-  <ContentOfTheSites :contentOfPage="contentOfPage" />
+  <v-container max-width="1200">
+    <ContentOfTheSites :contentOfPage="contentOfPage" />
+  </v-container>
 </template>
 
 <script lang="ts" setup>
