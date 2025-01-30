@@ -1,6 +1,8 @@
 <template>
-  <ContentOfTheSites :contentOfPage="contentOfPage" />
-  <img src="../assets/oldmap.png" alt="Nagykede térképe" />
+  <v-container max-width="1200">
+      <ContentOfTheSites :contentOfPage="contentOfPage" />
+      <img src="../assets/oldmap.png" alt="Nagykede térképe" />
+  </v-container>
 </template>
 
 <script lang="ts" setup>
