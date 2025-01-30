@@ -32,7 +32,7 @@ const imageUrls = ref<string[]>([])
 
 // Függvény a képek betöltéséhez
 const loadImages = async (path: string) => {
-  const images = import.meta.glob('@/assets/**/*.{png,jpg,jpeg}', { eager: true })
+  const images = import.meta.glob('@/public/**/*.{png,jpg,jpeg}', { eager: true })
 
   // Csak azokat a képeket szűrjük ki, amik a megadott mappában vannak
   const filteredImages = Object.entries(images)
