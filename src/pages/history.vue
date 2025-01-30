@@ -1,7 +1,7 @@
 <template>
   <v-container max-width="1200">
       <ContentOfTheSites :contentOfPage="contentOfPage" />
-      <img src="../assets/oldmap.png" alt="Nagykede térképe" />
+      <img src="../assets/2000/oldmap.png" alt="Nagykede térképe" />
   </v-container>
 </template>
 
@@ -24,7 +24,7 @@ const contentOfPage = reactive([
   },
   {
     title: 'Iskolatörténet',
-    subtitle: 'XX. Tovább utazás a Nyikó völgyén.',
+    subtitle: '',
     content: `Az első elemi iskolát 1820-ban létesítették Kiskedével közösen. Több éven át ebben az iskolában tanított Tiboldi István népköltészeti gyűjtő, író. Évről évre nagy gondot jelent újraindítani az összevont I-IV osztályt, tanulók hiányában.
             Nagykedében külön elemi iskola 1922-ben létesült a református egyház keretében. 1948 után mint állami iskola működött 1970-ig akkor tanulók hiányában megszűnt. Kiskede fogatta az okulni vágyókat.
             A faluban 1975-ig élénk kulturális élet folyt. A faluházat 1923-ban építették, ahol évente színdarabos bálokat, szabadtéri táncmulatságokat – majálist –rendeztek. A faluban volt könyvtár is, sajnos a könyvek legnagyobb része a második világháború alatt elveszett. Az utóbbi években, a nagyfokú elvándorlás miatt gyakorlatilag megszűnt a kulturális élet.
