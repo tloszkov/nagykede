@@ -11,15 +11,17 @@ const toggleTheme = () => {
 };
 
 const items = [
-  { title: 'Home', link: '' },
-  { title: 'About', link: 'about' },
-  { title: 'Contact', link: 'contact' },
-  { title: 'Settings', link: 'settings' },
+  { title: 'Nagykede', link: '' },
+  { title: 'Nagykede története', link: 'history' },
+  { title: 'Média tár', link: 'media' },
+  { title: 'Események', link: 'events' },
 ];
 </script>
 
 <template>
-  <div class="navigation-menu d-flex justify-center align-center gap-2 p-2">
+  <v-app-bar :elevation="2">
+    <v-row align="center" justify="center">
+
     <v-btn
       v-for="item in items"
       :key="item.title"
@@ -33,5 +35,6 @@ const items = [
       slim
       @click="toggleTheme"
     ></v-btn>
-  </div>
+    </v-row>
+  </v-app-bar>
 </template>
