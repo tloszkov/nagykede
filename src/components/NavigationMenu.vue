@@ -1,5 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
+import { useTheme } from 'vuetify';
+
+const theme = ref('dark');
+const vuetifyTheme = useTheme();
+
+const toggleTheme = () => {
+  theme.value = theme.value === 'light' ? 'dark' : 'light';
+  vuetifyTheme.global.name.value = theme.value;
+};
 
 const items = [
   { title: 'Home', link: '' },
@@ -7,25 +16,22 @@ const items = [
   { title: 'Contact', link: 'contact' },
   { title: 'Settings', link: 'settings' },
 ];
-
-const theme = ref('light');
-
-function onClick () {
-  theme.value = theme.value === 'light' ? 'dark' : 'light'
-}
 </script>
 
 <template>
-  <div>
-    <v-btn v-for="item in items" :key="item.title" :value="item.title" :to="`/${item.link}`"> {{ item.title }}
+  <div class="navigation-menu d-flex justify-center align-center gap-2 p-2">
+    <v-btn
+      v-for="item in items"
+      :key="item.title"
+      :value="item.title"
+      :to="`/${item.link}`"
+    >
+      {{ item.title }}
     </v-btn>
     <v-btn
-      :prepend-icon="theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"
+      :prepend-icon="theme === 'light' ? 'mdi-weather-night' : 'mdi-weather-sunny'"
       slim
-      @click="onClick"
+      @click="toggleTheme"
     ></v-btn>
   </div>
 </template>
-
-<style scoped>
-</style>
