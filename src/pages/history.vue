@@ -1,7 +1,6 @@
 <template>
   <v-container max-width="1200">
       <ContentOfTheSites :contentOfPage="contentOfPage" />
-      <img src="../assets/2000/oldmap.png" alt="Nagykede térképe" />
   </v-container>
 </template>
 
